@@ -62,14 +62,14 @@ const Footer = () => {
             style={{ padding: 10 }}
           >
             <Typography variant="h4" color="inherit">
-              vHealth
+              sanarya biotech
             </Typography>
             <Typography variant="body2" color="inherit">
-              vHealth provides progressive, and affordable healthcare,
+              sanarya biotech provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone
             </Typography>
             <Typography variant="body2" color="inherit">
-              ©vHealth PTY LTD 2020. All rights reserved
+              ©sanarya biotech PTY LTD 2020. All rights reserved
             </Typography>
           </Grid>
 
@@ -96,43 +96,6 @@ const Footer = () => {
             ))}
           </Hidden>
         </Grid>
-      </Box>
-      <Box className="attribution">
-        <Grid
-          container
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            color: "#FFF",
-            paddingLeft: 5,
-            paddingRight: 5,
-          }}
-          direction="row"
-          justify="space-between"
-          alignItems="center"
-        >
-          <Typography variant="body2" color="inherit">
-            Created by{" "}
-            <a
-              href="https://shantanudeshmukh.com/"
-              target="_blank"
-              style={{ color: "#FFF" }}
-            >
-              Shantanu Deshmukh
-            </a>
-          </Typography>
-          <Typography variant="body2" color="inherit">
-            Designed by
-            <a
-              href="https://dribbble.com/slabdsgn"
-              target="_blank"
-              style={{ color: "#FFF", margin: 5 }}
-            >
-              SLAB Design Studio
-            </a>
-          </Typography>
-        </Grid>
-        <FabDownload />
       </Box>
     </React.Fragment>
   )

@@ -76,7 +76,7 @@ const Header = ({ companyName }: Props) => {
             color="inherit"
             className={classes.toolbarTitle}
           >
-            vHealth
+            Sanarya Biotech
           </Typography>
 
           <Hidden xsDown>
@@ -115,7 +115,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  companyName: `vHealth`,
+  companyName: `sanarya biotech`,
 }
 
 export default Header

@@ -1,14 +1,14 @@
 <h1 align="center">
-  vHealth
+  sanarya biotech
 </h1>
 
 Open Source web template for a Healthcare Startup. It's built using gatsby but can be easily ported to create-react-app.
 
 ## Preview
 
-![Demo vHealth](demo.gif)
+![Demo sanarya biotech](demo.gif)
 
-[See Live Preview >> ](https://vhealth.openthemes.dev)
+[See Live Preview >> ](https://sanarya biotech.openthemes.dev)
 
 ## 🚀 Get Up and Running in 5 Minutes
 
@@ -23,8 +23,8 @@ Open Source web template for a Healthcare Startup. It's built using gatsby but c
    Clone this repo and install required dependencies:
 
    ```bash
-   git clone https://github.com/shantanu-deshmukh/vhealth-gatsby.git
-   cd vhealth-gatsby
+   git clone https://github.com/shantanu-deshmukh/sanarya biotech-gatsby.git
+   cd sanarya biotech-gatsby
    yarn install
    #or `npm install` if you prefer npm
    ```
