@@ -13,6 +13,7 @@ import Drawer from "@material-ui/core/Drawer"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 import List from "@material-ui/core/List"
+import Image from "./image"
 
 interface Props {
   companyName: string
@@ -51,7 +52,6 @@ const Header = ({ companyName }: Props) => {
   const navLinks = [
     { displayText: "Home", link: "#" },
     { displayText: "Services", link: "#services" },
-    { displayText: "Apps", link: "#apps" },
     { displayText: "Testimonials", link: "#testimonials" },
     { displayText: "Blog", link: "#blog" },
   ]
@@ -76,6 +76,14 @@ const Header = ({ companyName }: Props) => {
             color="inherit"
             className={classes.toolbarTitle}
           >
+            <div style={{display: "inline-block", width: "50px"}}>
+
+            
+            <Image
+              alt="Virtual Healthcare for you"
+              filename="sanaryabiotech-icon.png"
+            />
+            </div>
             Sanarya Biotech
           </Typography>
 

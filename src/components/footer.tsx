@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography"
 import Box from "@material-ui/core/Box"
 import Hidden from "@material-ui/core/Hidden"
 import Link from "@material-ui/core/Link"
-import FabDownload from "./fab-download"
 
 const Footer = () => {
   const footerLinks = [
@@ -15,27 +14,19 @@ const Footer = () => {
         {
           displayText: "Testimonials",
           url: "",
-        },
-        { displayText: "Find a Doctor", url: "" },
-        { displayText: "Apps", url: "" },
+        }
       ],
     },
     {
       title: "Region",
       items: [
         { displayText: "India", url: "" },
-        { displayText: "Indonesia", url: "" },
-        { displayText: "Singapore", url: "" },
-        { displayText: "Canada", url: "" },
       ],
     },
     {
       title: "Help",
       items: [
-        { displayText: "Help Center", url: "" },
         { displayText: "Contact Support", url: "" },
-        { displayText: "Instructions", url: "" },
-        { displayText: "How it works", url: "" },
       ],
     },
   ]
@@ -62,11 +53,10 @@ const Footer = () => {
             style={{ padding: 10 }}
           >
             <Typography variant="h4" color="inherit">
-              sanarya biotech
+              Sanarya Biotech
             </Typography>
             <Typography variant="body2" color="inherit">
-              sanarya biotech provides progressive, and affordable healthcare,
-              accessible on mobile and online for everyone
+              We provide progressive, and affordable healthcare, medical drugs
             </Typography>
             <Typography variant="body2" color="inherit">
               ©sanarya biotech PTY LTD 2020. All rights reserved

@@ -8,46 +8,12 @@ import Bar from "./bar"
 const Services = () => {
   let services = [
     {
-      id: 1,
-      image: "search-doctor-icon.png",
-      title: "Search Doctor",
-      description:
-        "Choose your doctor from thousands of specialist, general, and trusted hospitals.",
-    },
-    {
       id: 2,
       image: "online-pharmacy-icon.png",
-      title: "Online Pharmacy",
+      title: "Pharmacy",
       description:
-        "Buy your medicines with our mobile application with a simple delivery system.",
-    },
-    {
-      id: 3,
-      image: "consultation-icon.png",
-      title: "Consultation",
-      description:
-        "Free consultation with our trusted doctors and get the best recommendations.",
-    },
-    {
-      id: 4,
-      image: "details-info-icon.png",
-      title: "Detail Info",
-      description:
-        "Free consultation with our trusted doctors and get the best recommendations.",
-    },
-    {
-      id: 5,
-      image: "emergency-care-icon.png",
-      title: "Emergency Care",
-      description:
-        "You can get 24/7 urgent care for yourself or your children and your lovely family.",
-    },
-    {
-      id: 6,
-      image: "tracking-icon.png",
-      title: "Tracking",
-      description: "Track and save your medical history and health data.",
-    },
+        "Buy your medicines with simple and sophisticated delivery system.",
+    }
   ]
 
   return (
@@ -71,10 +37,7 @@ const Services = () => {
         <Typography variant="h5">Our Services</Typography>
         <Bar />
         <Typography variant="subtitle1" style={{ margin: 30 }}>
-          We provide to you the best choices for you. Adjust it to your health
-          needs and make sure your undergo treatment with our highly qualified
-          doctors you can consult with us which type of service is suitable for
-          your health
+          We provide to you the best choices for you. 
         </Typography>
       </Grid>
 

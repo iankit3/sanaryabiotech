@@ -8,13 +8,6 @@ import Bar from "./bar"
 const Articles = () => {
   const articles = [
     {
-      title: "Disease detection, check up in the laboratory",
-      description:
-        "In this case, the role of the health laboratory is very important to do a disease detection...",
-      url: "",
-      image: "blog1.png",
-    },
-    {
       title: "Herbal medicines that are safe for consumption",
       description:
         "Herbal medicine is very widely used at this time because of its very good for your health...",
