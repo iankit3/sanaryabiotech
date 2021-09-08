@@ -59,7 +59,7 @@ const Footer = () => {
               We provide progressive, and affordable healthcare, medical drugs
             </Typography>
             <Typography variant="body2" color="inherit">
-              ©sanarya biotech PTY LTD 2020. All rights reserved
+              ©Sanarya Biotech PVT LTD 2021. All rights reserved
             </Typography>
           </Grid>
 
